@@ -1,0 +1,28 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Recognition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Music Recognition</h1>
+
+        <div class="drop-area" id="drop-area">
+            <p>Drag & Drop your audio file here or click to upload</p>
+            <input type="file" id="fileInput" accept="audio/*" hidden>
+        </div>
+
+        <div id="results" class="results">
+            <img id="artwork" src="" alt="Artwork">
+            <h2 id="trackTitle"></h2>
+            <h3 id="trackArtist"></h3>
+            <audio id="audioPlayer" controls></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
