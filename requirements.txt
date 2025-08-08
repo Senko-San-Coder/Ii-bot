@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+shazamio
+pydub
+aiofiles
+aiohttp
+python-dotenv
